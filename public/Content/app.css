@@ -1,0 +1,84 @@
+/* custom css goes header */
+
+
+
+.jumbotron
+{
+    background: url('bg-image.jpg');
+    margin: 50px 50px 75px 100px;
+}
+.display-4
+{
+    text-align: center;
+    
+}
+
+.tab_con
+{
+    border:2px solid black ;
+    padding: 25px 25px 25px 25px;
+}
+.row_con
+{
+    border:0px solid black; 
+    height:50px; 
+     display: table-row;
+
+}
+.col_con
+{
+    border:0px solid black;
+    text-align: center ;
+    display: table-cell;
+    float: right; 
+    width: 500px; 
+    height:50px;  
+    margin-left:10px"
+}
+
+.main_con{
+
+    border:0px solid black;
+    height:300px; 
+    display: table-row ;
+}
+.main_con_r1
+{
+    border:0px solid black;
+    text-align: center ;
+    display: table-cell; 
+    float: right;
+    width: 700px;
+    height:300px;
+    margin-left:10px;
+}
+
+.profile-image 
+{
+    background: linear-gradient(to left bottom, var(--bg) 50%, var(--p-color) 50%);
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)*-1);
+    margin-right: calc(var(--bs-gutter-x)/-2);
+    margin-left: calc(var(--bs-gutter-x)/-2);
+}
+.container {
+   
+    background: url('bg-image.jpg');
+  }
+
+  .display-2
+  {
+   text-align: center;
+    font-size: 50px;
+  }
