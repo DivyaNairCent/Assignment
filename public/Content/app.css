@@ -7,7 +7,7 @@ Date: 12/02/2021 */
 /* styling for jumbatron*/
 .jumbotron
 {
-    background: url('bg-image.jpg');
+    background: url('image_backgrnd.jpg');
     margin: 50px 50px 75px 100px;
 }
 
@@ -113,9 +113,7 @@ label{
     text-align:right;
     }
   
-/* styling for input field in form*/
-input{
-}
+
  /* styling for fieldset in form*/   
 fieldset{
     border:none;
