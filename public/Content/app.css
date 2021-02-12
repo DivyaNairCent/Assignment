@@ -22,7 +22,7 @@
 {
     border:0px solid black; 
     height:50px; 
-     display: table-row;
+    display: table-row;
 
 }
 .col_con
@@ -49,8 +49,9 @@
     display: table-cell; 
     float: right;
     width: 700px;
-    height:300px;
+    height:270px;
     margin-left:10px;
+    border: 3px solid black;
 }
 
 .profile-image 
@@ -82,3 +83,59 @@
    text-align: center;
     font-size: 50px;
   }
+
+  .form {
+    margin: 0 auto;
+    width: 210px;
+}
+
+label{
+    display:inline-block;
+    width:200px;
+    margin-right:30px;
+    text-align:right;
+    }
+    
+input{
+}
+    
+fieldset{
+    border:none;
+    width:500px;
+    margin:0px auto;
+    }
+textarea
+{
+     margin-left:230px;
+        
+}
+.m_btn{
+    margin-left:230px;
+}
+
+.hero {
+    position: relative;
+    padding: 5em 0;
+    overflow: hidden;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.hero-bg {
+    background: linear-gradient(
+170deg
+, var(--primary-color) 64%, var(--white-color) 30%);
+}
