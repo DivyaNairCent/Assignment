@@ -1,9 +1,13 @@
 {
-  "name": "week3.1",
-  "version": "0.0.0",
+  "name": "comp229-w2021-assignment",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engine": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
@@ -16,5 +20,18 @@
     "jquery": "^3.5.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "express portfolio",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivyaNairCent/Assignment--Express_portfolio.git"
+  },
+  "author": "Divya Nair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DivyaNairCent/Assignment--Express_portfolio/issues"
+  },
+  "homepage": "https://github.com/DivyaNairCent/Assignment--Express_portfolio#readme"
 }
